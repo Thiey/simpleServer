@@ -15,7 +15,9 @@ app.get('/ruta',function (req,res){
 app.get('/lee',function (req,res){
   res.send('Respuesta de la ruta "/ruta"');
 });
-
+app.get('/desdeGitPod',function (req,res){
+  res.send('Se añaden cosas para probar el gitPod');
+});
 app.listen(port, function () {
   console.log(`Example app listening on port ${port}`)
 });
